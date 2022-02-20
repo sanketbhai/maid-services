@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>services</title>
     <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
 <body>
     <!-- serach bar with nav -->
@@ -159,4 +160,17 @@
 
     </div>
 </body>
+<script>
+    document.getElementById("nav").onclick=function(){
+        if(document.getElementsByClassName("menu")[0].style.display=="none"){
+            document.getElementsByClassName("menu")[0].style.display="block"
+
+        }else{
+            alert('helo')
+            document.getElementsByClassName("menu")[0].style.display="none"
+        }
+
+        
+    }
+</script>
 </html>
